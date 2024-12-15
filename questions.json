@@ -1,0 +1,26 @@
+{
+    "questions":  [
+        {
+            "question": "What is a squirrel?",
+            "options": ["Animal", "Fish", "Cell"],
+            "anser": "Animal"
+        },
+        {
+            "question": "What is a tree?",
+            "options": ["Plant", "Herbivore", "Photosynthesis"],
+            "anser": "Plant"
+
+        },
+        {
+            "question": "What do we breathe?",
+            "options": ["Oxygen", "Water", "Dirt"],
+            "anser": "Oxygen"
+        },
+        {
+            "question": "What is food?",
+            "options": ["Energy", "Table", "Coin"],
+            "anser": "Energy"
+        }
+    ]
+}
+
