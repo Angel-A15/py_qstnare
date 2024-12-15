@@ -3,23 +3,23 @@
         {
             "question": "What is a squirrel?",
             "options": ["Animal", "Fish", "Cell"],
-            "anser": "Animal"
+            "answer": "Animal"
         },
         {
             "question": "What is a tree?",
             "options": ["Plant", "Herbivore", "Photosynthesis"],
-            "anser": "Plant"
+            "answer": "Plant"
 
         },
         {
             "question": "What do we breathe?",
             "options": ["Oxygen", "Water", "Dirt"],
-            "anser": "Oxygen"
+            "answer": "Oxygen"
         },
         {
             "question": "What is food?",
             "options": ["Energy", "Table", "Coin"],
-            "anser": "Energy"
+            "answer": "Energy"
         }
     ]
 }
