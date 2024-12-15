@@ -4,7 +4,7 @@
 # 
 import random
 import json
-
+import time
 
 def load_questions():
     with open("questions.json", "r") as f:
@@ -35,6 +35,7 @@ questions = load_questions()
 total_questions = int(input("Enter the number of questions:"))
 random_queestions = get_random_questons(questions, total_questions)
 correct = 0
+start_time = time.time()
 
 for question in random_queestions:
     is_correct = ask_question(question)
@@ -42,7 +43,9 @@ for question in random_queestions:
         correct += 1
     print("------------------")
 
+completed_time = time.time() - start_time
 print("Summary")
 print("Total Questions:", total_questions)
 print("Correct Answers:", correct)
 print("Score:", str(round((correct / total_questions) * 100, 2)) + "%")
+print("Time:", round(completed_time, 2), "seconds")
